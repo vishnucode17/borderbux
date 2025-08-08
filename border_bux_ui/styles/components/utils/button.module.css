@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("/border-bux-ui/static/fonts/Helvetica.ttf") format("truetype");
+}
+
+.btn {
+    background: rgba(0, 34, 204, 1);
+    color: #fff;
+    font-size: 15px;
+    font-family: Helvetica;
+    padding: 10px;
+    outline: none;
+    border: none;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+}

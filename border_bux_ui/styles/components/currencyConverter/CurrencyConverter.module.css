@@ -1,0 +1,97 @@
+.converterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 3px solid #0066ff;
+  border-radius: 10.81px;
+  padding: 14px;
+}
+
+.converterBox {
+  background: url('/static/images/Conversionbg.jpeg') 35% 35%;
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  width: 429px;
+  height: 500px;
+  gap: 0px;
+  border-radius: 10.81px 0px 0px 0px;
+  border: 3px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.inputRow,
+.outputRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.amountInput,
+.amountOutput {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.amountInput input,
+.amountOutput input {
+  border: none;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 5px;
+  color: black;
+}
+
+.currencySymbol {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.currencyButton {
+  background-color: white;
+  border: none;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.flagImage {
+  width: 20px;
+  /* Adjust width as needed */
+  height: auto;
+  margin-right: 5px;
+}
+
+.exchangeRate {
+  margin-bottom: 15px;
+}
+
+.paymentButton {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sendButton {
+  background-color: #0066ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.feesInfo p {
+  margin: 5px 0;
+}

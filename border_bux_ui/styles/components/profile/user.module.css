@@ -1,0 +1,186 @@
+/* General Styling for the Profile Page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .profileCard {
+    width: 350px;
+    height: 220px;
+    perspective: 1000px;
+  }
+  
+  .cardFront {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(145deg, #0a3d63, #0c8f89);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .cardHeader h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .verified {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cardBody {
+    text-align: center;
+  }
+  
+  .cardNumber {
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  
+  .cardHolder {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .expiry {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  .userInfo {
+    margin-top: 30px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .userInfo h2 {
+    font-size: 20px;
+    color: #ffcb00;
+  }
+  
+  .userInfo p {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  /* Button to trigger modal */
+  .addBankButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addBankButton:hover {
+    background-color: #45a049;
+  }
+  
+  /* Modal Overlay and Content */
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .modal h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .modal label {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .modal input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .formActions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submitButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+  
+  .closeButton {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .closeButton:hover {
+    background-color: #e04e2f;
+  }
+  

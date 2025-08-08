@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("/border-bux-ui/static/fonts/Helvetica.ttf") format("truetype");
+}
+.drop_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 21px;
+    width: 100%;
+}
+
+.drop_arrow {
+    transition: transform 0.3s ease;
+}
+
+.drop_arrow_open {
+    transform: rotate(180deg);
+}
+
+.drop_arrow {
+    width: 27.31px;
+    height: 13.65px;
+}
+.drop_outer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.drop_down_head {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 24px;
+}
+.drop_down_content {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    padding-left: 21px;
+    font-family: 'Helvetica';
+}
+
+.drop_down_content_open {
+    height: auto; 
+    padding-bottom: 10px;
+}

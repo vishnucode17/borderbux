@@ -1,0 +1,86 @@
+/* kyc.module.css */
+
+.kyc_form_container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.kyc_form_head {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.kyc_form_bottom_section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.kyc_form_bottom_section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.kyc_form_bottom_section button:hover {
+    background-color: #0056b3;
+}
+
+.kyc_form_bottom_section button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.kyc_form_bottom_section a {
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.kyc_form_container a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.kyc_form_container a:hover {
+    text-decoration: underline;
+}
+
+.kyc_form_container .loading {
+    font-size: 18px;
+    color: #007BFF;
+    text-align: center;
+}
+
+.kyc_form_container p {
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+
+.kyc_form_container .success {
+    color: green;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+

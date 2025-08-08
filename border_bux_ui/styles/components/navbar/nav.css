@@ -1,0 +1,51 @@
+@font-face {
+    font-family:"Helvetica";
+    src: url("/border-bux-ui/static/fonts/Helvetica.ttf") format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.root-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 31px auto; 
+    padding: 0 20px;
+    max-width: 1200px; 
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+.nav-link {
+    list-style: none;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 52px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+.brand-name {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Helvetica';
+}
+.selected {
+    background-color: #0022cc;
+    color: #ffffff;
+}
+.auth {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    white-space: nowrap;
+    color: #076DF3;
+    font-weight: bold;
+}

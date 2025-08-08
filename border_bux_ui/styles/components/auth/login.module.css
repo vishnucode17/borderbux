@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("/border-bux-ui/static/fonts/Helvetica.ttf") format("truetype");
+}
+
+.login_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    margin: auto;
+}
+
+.login_container:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+.auth_head {
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #333;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.auth_head:hover {
+    color: #6a1b9a;
+}
+
+.auth_subhead {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(149, 149, 149, 1);
+    margin-top: 10px;
+    width: 80%;
+}
+
+.auth_form {
+    padding: 40px;
+    border: 3px solid #5677fc;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    background: #f9f9f9;
+}
+
+.auth_form input {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.auth_form input:focus {
+    border-color: #5677fc;
+    box-shadow: 0 0 5px rgba(86, 119, 252, 0.3);
+}
+
+.auth_form button {
+    padding: 15px;
+    background: #5677fc;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.auth_form button:hover {
+    background: #4a65e1;
+}
+
+#back {
+    font-family: "Helvetica";
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(99, 99, 99, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#back:hover {
+    color: #6a1b9a;
+}
+
+.auth_bottom_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+    .auth_head {
+        font-size: 30px;
+    }
+
+    .auth_form {
+        padding: 25px;
+    }
+
+    .login_container {
+        padding: 25px;
+    }
+}
